@@ -15,9 +15,6 @@ class IPC(object):
         res = getattr(a, city_type)
         return res
 
-if __name__ == '__main__':
-    m=IPC()
-    m.get()
 
 
 
